@@ -7,7 +7,7 @@ const Navbar = () => {
           <Link to="/react-whats_for_dinner">
             <div className='title-wrapper'>
               <PiCookingPot className="title-icon"></PiCookingPot>
-              <h1>What&apos;s for Dinner?</h1>
+              <h1 className="young-serif-regular">What&#8217;s for Dinner?</h1>
             </div>
         </Link>
     <ul className="nav-links">
