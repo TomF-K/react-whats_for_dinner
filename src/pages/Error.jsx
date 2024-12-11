@@ -5,7 +5,7 @@ const Error = () => {
     <div>
         <h2>Uh Oh!</h2>
         <p>The content you&apos;re looking for doesn&apos;t exist</p>
-        <button><Link to="/">Take me home</Link></button>
+        <button><Link to="/react-whats_for_dinner">Take me home</Link></button>
         </div>
   )
 }
