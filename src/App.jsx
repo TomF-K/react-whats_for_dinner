@@ -49,7 +49,7 @@ function App() {
     <Router>
       <Navbar />
       <Routes>
-        <Route exact path="/" element={<Home handleSubmit={handleSubmit} setInput={setInput} input={input} recipes={recipes} loading={loading} setRecipes={setRecipes}/>}/>
+        <Route exact path="/react-whats_for_dinner" element={<Home handleSubmit={handleSubmit} setInput={setInput} input={input} recipes={recipes} loading={loading} setRecipes={setRecipes}/>}/>
         <Route path="about" element={<About />}/>
         <Route path="login" element={<Login />}/>
         <Route path="recipe/:id" element={<ExpandedRecipe />}/>
