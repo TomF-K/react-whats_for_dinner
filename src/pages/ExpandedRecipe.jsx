@@ -104,7 +104,7 @@ const ExpandedRecipe = () => {
                     <div className="expanded-recipe__video-container">
                         <iframe width="560" height="315" src={`${youtubeEmbed}${strYoutube.slice(-11)}`}></iframe>
                     </div>
-                    <button><Link to="/react-whats_for_dinner">back home</Link></button>
+                    <button><Link to="/">back home</Link></button>
                 </article>
     </section>
   )
