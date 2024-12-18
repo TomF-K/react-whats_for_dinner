@@ -377,7 +377,7 @@ nav {
 
 @media (width <= 800px) {
   body {
-    line-height: 1;
+    line-height: 1.2;
   }
   .title-icon {
     margin: 2rem 0 1rem;
@@ -394,15 +394,18 @@ nav {
     text-align: center;
   }
 
-.recipe-grid__wrapper {
+  .recipe-grid__wrapper {
   width: 90vw;
-}
+  }
   .cuisine-category__wrapper {
     width: 50%;
     margin: 0 auto;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
+  }
+  .cuisine-category__wrapper p {
+    font-size: 1rem;
   }
   .expanded-recipe__info-category,
 .expanded-recipe__info-cuisine
@@ -422,9 +425,16 @@ nav {
 .expanded-recipe__ingredients-grid-wrapper {
   width: 70%;
 }
-.method {
+
+.method__wrapper {
+  margin: 0;
+  width: 90vw;
+}
+
+.method__wrapper li {
   font-size: 1rem;
 }
+
 iframe {
   width: 280px;
   height: 157px;
