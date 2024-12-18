@@ -425,4 +425,8 @@ nav {
 .method {
   font-size: 1rem;
 }
+iframe {
+  width: 280px;
+  height: 157px;
+}
 }
