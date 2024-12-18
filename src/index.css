@@ -176,6 +176,7 @@ input {
   border: 2px solid var(--background-color-tertiary);
   border-radius: 20px;
   margin-bottom: 2rem;
+  overflow: hidden;
 }
 
 .img-container {
@@ -185,7 +186,7 @@ input {
 
 .recipe-img {
   width: 100%;
-  border-radius: 20px 20px 0 0;
+  /* border-radius: 20px 20px 0 0; */
 }
 
 .method__wrapper {
@@ -375,6 +376,27 @@ nav {
 }
 
 @media (width <= 800px) {
+  body {
+    line-height: 1;
+  }
+  .title-icon {
+    margin: 2rem 0 1rem;
+  }
+  h1 {
+    margin: 0;
+  }
+  .nav-links {
+    padding: 0;
+  }
+
+  .search-results {
+    margin: 0 auto;
+    text-align: center;
+  }
+
+.recipe-grid__wrapper {
+  width: 90vw;
+}
   .cuisine-category__wrapper {
     width: 50%;
     margin: 0 auto;
